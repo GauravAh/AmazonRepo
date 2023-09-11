@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Parallel test suite]">
+  <test thread-count="5" name="EAHMails(failed)">
+    <classes>
+      <class name="Supporting.EssayAssinmentHelpAU">
+        <methods>
+          <include name="ExpertStoppedEAH"/>
+          <include name="TopQualityEAH"/>
+          <include name="OpenBrowser"/>
+          <include name="SiezeDiscountEAH"/>
+          <include name="QuitBrowser"/>
+          <include name="ExpertWaitingEAH"/>
+          <include name="GrapDealEAH"/>
+          <include name="BestExpertWaitingEAH"/>
+        </methods>
+      </class> <!-- Supporting.EssayAssinmentHelpAU -->
+    </classes>
+  </test> <!-- EAHMails(failed) -->
+  <test thread-count="5" name="AEWMails(failed)">
+    <classes>
+      <class name="Supporting.AllEssayWriter">
+        <methods>
+          <include name="GrapDealAEW"/>
+          <include name="TopQualityAEW"/>
+          <include name="SiezeDiscountAEW"/>
+          <include name="ExpertStoppedAEW"/>
+          <include name="BestExpertWaitingAEW"/>
+          <include name="QuitBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- Supporting.AllEssayWriter -->
+    </classes>
+  </test> <!-- AEWMails(failed) -->
+  <test thread-count="5" name="SGMails(failed)">
+    <classes>
+      <class name="Supporting.AssignmentHelpSG">
+        <methods>
+          <include name="GrapDealSG"/>
+          <include name="SiezeDiscountSG"/>
+          <include name="ExpertStoppedSG"/>
+          <include name="BestExpertWaitingSG"/>
+          <include name="QuitBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- Supporting.AssignmentHelpSG -->
+    </classes>
+  </test> <!-- SGMails(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->

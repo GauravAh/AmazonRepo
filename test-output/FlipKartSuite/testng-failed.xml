@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FlipKartSuite]">
+  <parameter name="Param" value="Chrome"/>
+  <test thread-count="5" name="FlipKartTest(failed)">
+    <classes>
+      <class name="FlipKart.OrangeHRM">
+        <methods>
+          <include name="LoginPortal"/>
+          <include name="TestCase1"/>
+        </methods>
+      </class> <!-- FlipKart.OrangeHRM -->
+    </classes>
+  </test> <!-- FlipKartTest(failed) -->
+</suite> <!-- Failed suite [FlipKartSuite] -->

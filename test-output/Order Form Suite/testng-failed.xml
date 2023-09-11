@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Order Form Suite]">
+  <test thread-count="5" name="AEWOrderTest(failed)">
+    <classes>
+      <class name="SupportingOrderPlace.AEWOrderPlace">
+        <methods>
+          <include name="CheckSubjectField"/>
+          <include name="CheckSubjectField1"/>
+          <include name="QuitBrowser"/>
+          <include name="OpenBrowser"/>
+        </methods>
+      </class> <!-- SupportingOrderPlace.AEWOrderPlace -->
+    </classes>
+  </test> <!-- AEWOrderTest(failed) -->
+</suite> <!-- Failed suite [Order Form Suite] -->
